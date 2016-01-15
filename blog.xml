@@ -14,6 +14,7 @@ xmlns:expr='http://www.google.com/2005/gml/expr'>
     <b:include data='blog' name='all-head-content'/>
     <title><data:blog.pageTitle/></title>
    <b:skin><![CDATA[
+   /*just testing empty blog file */
 #navbar-iframe {   height:0px;   visibility:hidden;   display:none   }
 body {
   font: $(body.font);
@@ -51,7 +52,7 @@ body {
                 https://draft.blogger.com/navbar.g?targetBlogID\758971535189600892851\46blogName\75Test+\46publishMode\
                 75PUBLISH_MODE_BLOGSPOT\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75//
                 prudhvit.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl
-                \75http://prudhvit.blogspot.com/\46readAccessMode\75CUSTOM\46vt\75-724487308008860770&#39;,
+                \75http://blog.blogspot.com/\46readAccessMode\75CUSTOM\46vt\75-724487308008860770&#39;,
                 where: document.getElementById(&quot;navbar-iframe-container&quot;),
                 id: &quot;navbar-iframe&quot;
             });
@@ -73,7 +74,7 @@ head.appendChild(script);
 
 <div style='margin-top:400px; '>
 <!--Please keep the Credits intact-->
-<center><p><a href='http://www.mybloggertricks.com'> </a>&#169; 2012.</p></center>
+<center><p></a>&#169; 2012.</p></center>
 </div>
   </body>
 </html>
