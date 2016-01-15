@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' 
+xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' 
+xmlns:data='http://www.google.com/2005/gml/data' 
+xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+    <b:if cond='data:blog.isMobile'>
+      <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+    <b:else/>
+      <meta content='width=1100' name='viewport'/>
+    </b:if>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+   <b:skin><![CDATA[
+#navbar-iframe {   height:0px;   visibility:hidden;   display:none   }
+body {
+  font: $(body.font);
+  color: $(body.text.color);
+  background: $(body.background);
+  padding: 0 $(content.shadow.spread) $(content.shadow.spread) $(content.shadow.spread);
+  $(body.background.override)  margin: 0;
+    padding: 0;
+}
+
+]]></b:skin>
+  
+  </head>
+  <body>
+  <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
+    <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
+      <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener(&#39;load&#39;,
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
+      }
+    }
+  &lt;/script&gt;
+&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+        gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+          if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: &#39;
+                
+                https://draft.blogger.com/navbar.g?targetBlogID\758971535189600892851\46blogName\75Test+\46publishMode\
+                75PUBLISH_MODE_BLOGSPOT\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75//
+                prudhvit.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl
+                \75http://prudhvit.blogspot.com/\46readAccessMode\75CUSTOM\46vt\75-724487308008860770&#39;,
+                where: document.getElementById(&quot;navbar-iframe-container&quot;),
+                id: &quot;navbar-iframe&quot;
+            });
+          }
+        });
+      &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+(function() {
+var script = document.createElement(&#39;script&#39;);
+script.type = &#39;text/javascript&#39;;
+script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
+var head = document.getElementsByTagName(&#39;head&#39;)[0];
+if (head) {
+head.appendChild(script);
+}})();
+&lt;/script&gt;
+</b:includable>
+    </b:widget>
+  </b:section>
+
+<div style='margin-top:400px; '>
+<!--Please keep the Credits intact-->
+<center><p><a href='http://www.mybloggertricks.com'> </a>&#169; 2012.</p></center>
+</div>
+  </body>
+</html>
